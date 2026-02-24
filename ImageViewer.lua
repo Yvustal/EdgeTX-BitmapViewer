@@ -5,8 +5,8 @@ local function run(event)
     lcd.clear()
 
     -- Paths for the two 64x64 images
-    local imagePath1 = "/SCRIPTS/TOOLS/IMAGEVIEWER/bitmap1.bmp"
-    local imagePath2 = "/SCRIPTS/TOOLS/IMAGEVIEWER/bitmap2.bmp"
+    local imagePath1 = "/SCRIPTS/TOOLS/MEDIAVIEWER/bitmap1.bmp"
+    local imagePath2 = "/SCRIPTS/TOOLS/MEDIAVIEWER/bitmap2.bmp"
 
     -- Load the first image
     local img1 = io.open(imagePath1, "r")
@@ -29,3 +29,4 @@ end
 
 
 return { init=init, run=run }
+
